@@ -1,0 +1,94 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  overflow: hidden;
+  margin: 0;
+}
+/* Layout */
+.column {
+  height: 100%;
+  width: 45%;
+  display: block;
+}
+.block {
+  height: 80%;
+  width: 100%;
+}
+.sliver {
+  height: 20%;
+  width: 100%;
+}
+.column2 {
+  height: 100%;
+  width: 55%;
+  display: block;
+}
+.row {
+  height: 50%;
+  width: 100%;
+  display: flex;
+}
+.box {
+  height: 100%;
+  width: 33.5%;
+}
+
+/* Images/centering */
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.img2 {
+  height: 100%;
+  width: 100%;
+}
+.center-content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/* cursor interactions */
+.box:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+.box:active {
+  filter: brightness(85%);
+}
+.AS:hover {
+  cursor: pointer;
+}
+
+/* color */
+.dark-grey {
+  background-color: darkgrey;
+}
+.light-grey {
+  background-color: rgb(160, 154, 154);
+}
+.black {
+  background-color: black;
+}
+.orange {
+  background-color: rgb(201, 134, 9);
+}
+.blue {
+  background-color: blue;
+}
+
+/* responsive breakpoints */
+@media only screen and (max-width: 750px) {
+  body {
+    display: block;
+  }
+  .column {
+    height: 45%;
+    width: 100%;
+  }
+  .column2 {
+    height: 55%;
+    width: 100%;
+  }
+}

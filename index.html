@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- main div -->
+    <div class="column dark-grey">
+      <!-- reset div -->
+      <div class="sliver black center-content">
+        <img class="AS" src="images/AS.png" class="curser" onclick="reset()" />
+      </div>
+      <!-- Television div -->
+      <div class="block black center-content">
+        <img src="images/adult_swim.png" id="t1" />
+      </div>
+    </div>
+    <!-- main div -->
+    <div class="column2 dark-grey">
+      <!-- Holder -->
+      <div class="row light-grey">
+        <!-- Show -->
+        <div class="box orange">
+          <img
+            class="img2"
+            src="images/kingofthehill.JPG"
+            class="curser"
+            onclick="playVideo()"
+          />
+        </div>
+        <!-- Show -->
+        <div class="box blue">
+          <img
+            class="img2"
+            src="images/ATHF.JPG"
+            class="curser"
+            onclick="playVideo2()"
+          />
+        </div>
+        <!-- Show -->
+        <div class="box orange">
+          <img
+            class="img2"
+            src="images/boondocks.JPG"
+            class="curser"
+            onclick="playVideo3()"
+          />
+        </div>
+      </div>
+      <!-- Holder -->
+      <div class="row light-grey">
+        <!-- Show -->
+        <div class="box blue">
+          <img
+            class="img2"
+            src="images/bobs_burger.JPG"
+            class="curser"
+            onclick="playVideo4()"
+          />
+        </div>
+        <!-- Show -->
+        <div class="box orange">
+          <img
+            class="img2"
+            src="images/family_guy.JPG"
+            class="curser"
+            onclick="playVideo5()"
+          />
+        </div>
+        <!-- Show -->
+        <div class="box blue">
+          <img
+            class="img2"
+            src="images/american_dad.JPG"
+            class="curser"
+            onclick="playVideo6()"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- click sound -->
+    <audio src="sounds/click.wav" id="click"></audio>
+    <script src="javascript.js"></script>
+  </body>
+</html>
