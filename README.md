@@ -11,9 +11,9 @@ A PDF showing my design process, iterations, and UX testing
 Design Process & Testing
 
 I included a PDF called
-UX_testing: 
-iterations.pdf:
-that shows:
+UX_testing.pdf and
+iterations.pdf
+that show:
 
 Initial sketches and wireframes
 
