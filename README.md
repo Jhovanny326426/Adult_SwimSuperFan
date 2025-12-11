@@ -8,8 +8,12 @@ A clean and modern design that works on both desktop and mobile
 Interactive elements using JavaScript
 A PDF showing my design process, iterations, and UX testing
 
-My Design Process
-I included a PDF called UX_testing_and_iterations.pdf that shows:
+Design Process & Testing
+
+I included a PDF called
+UX_testing: 
+iterations.pdf:
+that shows:
 
 Initial sketches and wireframes
 
@@ -18,7 +22,3 @@ Design changes based on feedback
 Results from usability testing
 
 Final decisions and why I made them
-
-How to View the Website
-You can see the website by opening index.html in a browser.
-Or clone the repository with:
